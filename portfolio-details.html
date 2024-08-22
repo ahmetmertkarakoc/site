@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - DevFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Ahmet Mert Karakoçoğlu</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">         <!-- HATA VAR DÜZELT NAVİGASYON TUŞLARI ÇALIŞMIYOR -->
+        <ul>
+          <li><a href="#hero">Anasayfa<br></a></li>
+          <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#portfolio">Projelerim</a></li>
+          <li><a href="#contact">Bana Ulaşın</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Projelerim Hakkında</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li class="current">Projelerim Hakkında</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">         <!-- HATA VAR DÜZELT FOTOLAR DENGESİZ -->
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje1.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje2.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje3.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje4.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje5.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/proje6.png" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Greenhouse Heating Control with Fuzzy Logic</h2>
+              <p>
+                Bu projede, bir seranın iç ortam sıcaklığını kontrol etmek için bulanık mantık prensiplerini kullanan bir sistem geliştirdim. Seradaki nem ve sıcaklık sensörlerinden gelen veriler doğrultusunda, optimum ısıtma değerini hesaplayan bir yapay zeka algoritması oluşturuldu.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Bilgi, bir hazine gibidir; ama onu saklamak, onu paylaşmaktan daha değerlidir.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/ibnisina.png" class="testimonial-img" alt="">
+                  <h3>İbn-i Sina</h3>
+                  <h4>(Avicenna)</h4>
+                </div>
+              </div>  
+
+              <p>
+                Sistem, gizli katmanları olan bir yapıya sahip olup, belirlenen aralıklarla sıcaklığı otomatik olarak ayarlayabiliyor. Kullanıcı, Qt ile geliştirilmiş arayüzden istenen sıcaklık aralıklarını girebiliyor ve sistem, bu aralıklara göre en uygun ısıtma seviyesini sabitliyor.              </p>
+              <p>
+                Bu proje, özellikle tarım sektöründe enerji verimliliğini artırmak ve sera koşullarını optimize etmek amacıyla geliştirilmiştir.              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> Bulanık Mantık </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Ocak, 2022 - 01 Mayıs, 2023</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc/Yapay-Zeka-ile-Bulan-k-Mant-k</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- End Proje Item 2 -->
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Mood Analysis with Artificial Intelligence</h2>
+              <p>
+                Bu projede, kullanıcının yüz ifadelerini analiz ederek ruh halini tahmin eden bir yapay zeka sistemi geliştirdim. 35.000 fotoğrafla eğitilmiş bir makine öğrenimi modeli kullanarak, kullanıcının kamera karşısındaki duygusal durumunu anlık olarak analiz eden ve sonuçları ekranda gösteren bir yazılım oluşturdum.              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Kendi üzerimdeki devrimleri anlamamın nedeni, başkalarına nasıl bakacağımı bilmiyor olmamdan kaynaklanıyor.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/isaacnewton.jpeg" class="testimonial-img" alt="">
+                  <h3>Isaac Newton</h3>
+                </div>
+              </div>  
+
+              <p>
+                Proje, Python ve TensorFlow kullanılarak geliştirildi ve Qt ile kullanıcı dostu bir arayüz tasarlandı.
+              <p>
+                Bu sistem, kullanıcıdan gelen geri bildirimlere göre öğrenmeye devam ederek doğruluk oranını artırabilmektedir. Modelin performansı, çeşitli test yazılımları ile değerlendirildi ve gerektiğinde modelin yeniden eğitilmesi sağlandı.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> Yapay Zeka </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Eylül, 2023 - 01 Haziran, 2024</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc/Yapay-Zeka-ile-Duygu-Durum-Analizi</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- End Proje Item 3-->
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Compressive Strength of Concrete and AI-Assisted Testing</h2>
+              <p>
+                Bu projede, bir seranın iç ortam sıcaklığını kontrol etmek için bulanık mantık prensiplerini kullanan bir sistem geliştirdim. Seradaki nem ve sıcaklık sensörlerinden gelen veriler doğrultusunda, optimum ısıtma değerini hesaplayan bir yapay zeka algoritması oluşturuldu.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Bilim, aklın gelişimi için bir yoldur; düşünce ise bilimden elde edilen ışıkla beslenir.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/ibnrüsd.jpeg" class="testimonial-img" alt="">
+                  <h3>İbn-i Rüşd</h3>
+                  <h4>(Averroes)</h4>
+                </div>
+              </div>  
+
+              <p>
+                Geliştirilen yapay zeka modeli, farklı malzeme karışımlarını test ederek, en uygun beton karışımını önerir.</p>
+              <p>
+                Bu proje, inşaat sektöründe daha sağlam ve dayanıklı yapıların inşa edilmesi için pratik bir çözüm sunmayı amaçlamaktadır.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> Makine Öğrenimi </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Mart, 2023 - 01 Nisan, 2023</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc/Yapay-Sinir-A-</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- End Proje Item 4-->
+        <div class="row justify-content-between gy-4 mt-4">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Fake Test Data Transmission System</h2>
+              <p>
+                Bu projede, sahte test verilerini seri port üzerinden gönderme amacıyla bir sistem geliştirdim. STM32 mikrodenetleyicisi kullanılarak SPI, UART, CAN BUS, I2C ve USB protokolleri aracılığıyla sahte veri üreten bir yazılım oluşturuldu. Projede, manuel olarak (XML formatında) sahte bit verisi oluşturulabilen bir arayüz tasarlandı. 
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Hayal gücü bilgi kadar önemlidir. Bilginin sınırlarını aşabilmek için hayal gücüne ihtiyacımız var.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/enisten.jpeg" class="testimonial-img" alt="">
+                  <h3>Albert Einstein</h3>
+                </div>
+              </div>  
+
+              <p>
+                Bu arayüz, Qt programı ile geliştirildi ve kullanıcının belirlediği aralıklarda veri gönderebilmesini sağladı. Arayüzde, veri gönderimi sırasında oluşan hata kodları da dahil olmak üzere tüm veriler görüntülenebiliyor.               </p>
+              <p>
+                Sistem, askeri ve endüstriyel testler için güvenilir bir çözüm sunmak amacıyla tasarlandı ve çeşitli senaryolarda başarılı testlerden geçirildi.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> STM32CubeIDE </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Ocak, 2022 - 01 Mart, 2023</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- End Proje Item 5-->
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Stabil Çalışan Hız Sabitleyicisi Modeli</h2>
+              <p>
+                Bu projemde günlük hayatta kullanılan hız sabitleyicisi sistemlerinin teker teker fonksiyonlarını oluşturup kontrolörler ile (PID) kullanıcı opsiyonunda tasarımını MATLAB üzerinde yapıldı.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Gözlem ve deney, bilginin temel taşlarıdır. Herhangi bir bilginin doğruluğunu sadece gözlem ve deney ile kanıtlayabiliriz.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/Alhazen.jpeg" class="testimonial-img" alt="">
+                  <h3>İbn-i Al-Haytham</h3>
+                  <h4>(Alhazen)</h4>
+                </div>
+              </div>  
+
+              <p>
+                Gerekli formüllerini çıkardığım denklemlerin tasarımlarını yazdım ve bunları en optimal düzeyde çalışması gereken voltaj değerlerinin hesapları yapıldı. </p>
+              <p>
+                Hesapların ardından MATLAB projesi için gerekli kodlar yazıldı.</p>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> MATLAB </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Ocak, 2021 - 23 Ocak, 2021</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- End Proje Item 6-->
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Arduino ile DC Motor Kontrolü</h2>
+              <p>
+                Bu projemde 12V DC motor halihazırda dönüyor ve belirli bir threshold seviyesini geçince (zorlanma) kendini stabilize edip tekrardan dönüş sağlıyor. </p>
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Geleceğin bilim insanları, enerji ve yaşamın sırrını çözmekle ilgileneceklerdir.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/tesla.jpeg" class="testimonial-img" alt="">
+                  <h3>Nikola Tesla</h3>
+                </div>
+              </div>  
+
+              <p>
+                Bunu Arduino ile yaptığım projeden kısaca bahsetmem gerekirse. saat yönünde dönen motoru ölçtüğüm ampermetre sensörü ile belirli bir zorlanma algılıyorum              </p>
+              <p>
+                bu zorlanmayı threshold seviyesi olarak belirliyorum ve o aktivasyon seviyesini geçince motor hızını düşürüp saat yönünün tersi yönde kendini stabilize edip tekrar dönüşü sağlıyor</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Kategori</strong> Arduino </li>
+                <li><strong>Kurum</strong> Selçuk Üniversitesi </li>
+                <li><strong>Proje Tarih</strong> 01 Mart, 2020 - 01 Nisan, 2020</li>
+                <li><strong>Proje URL</strong> <a href="#">https://github.com/ahmetmertkarakoc</a></li>         <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+                <li><a href="#" class="btn-visit align-self-start">Ziyaret Et</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section><!-- /Portfolio Details Section -->
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Telif Hakkı</span> <strong class="px-1 sitename">Ahmet Mert Karakoçoğlu</strong> <span>'na Aittir ve Tüm Hakları Saklıdır</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <!-- HATA VAR DÜZELT LİNKLER ÇALIŞMIYOR -->
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- Bütün kaynaklara byAhmedovic'den ulaşabilirsiniz -->
+        by Ahmedovic <a href="https://www.instagram.com/ahmeedovic/"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
